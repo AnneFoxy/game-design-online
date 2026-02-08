@@ -1,0 +1,5 @@
+body { font-family: Arial; max-width: 800px; margin: 0 auto; padding: 20px; }
+header { text-align: center; border-bottom: 2px solid #CD853F; padding-bottom: 10px; }
+label { display: block; margin: 10px 0; }
+button { background: #CD853F; color: white; padding: 10px 20px; border: none; cursor: pointer; }
+pre { background: #f4f4f4; padding: 20px; white-space: pre-wrap; }

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maple Fox Game Design Online 🦊🇨🇦</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Maple Fox Game Design Tool</h1>
+  </header>
+  <main>
+    <form id="designForm">
+      <label>Game Title: <input type="text" id="title"></label>
+      <label>Genre: <input type="text" id="genre"></label>
+      <label>Core Mechanic: <textarea id="mechanic"></textarea></label>
+      <label>MDA Notes: <textarea id="mda"></textarea></label>
+      <button type="submit">Export Design Doc</button>
+    </form>
+    <pre id="output"></pre>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
